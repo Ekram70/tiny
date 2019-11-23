@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Alata|Kaushan+Script&display=swap');
+
+/** font-family: 'Alata', sans-serif;
+		font-family: 'Kaushan Script', cursive;
+**/
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: rgb(240, 216, 0);
+	font-size: 20px;
+	padding-bottom: 5%;
+}
+
+.container {
+	margin: 0% auto;
+	width: 80%;
+	font-family: 'Alata', sans-serif;
+	
+}
+
+
+ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+li {
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+li:hover {
+	background-color: rgba(0, 0, 0, 0.849);
+	color: rgba(240, 216, 0, 0.849);
+	border-radius: 10px;
+}
+
+.logo {
+	padding: 10px 0px;
+}
+
+
+.subtitle {
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.text {
+	font-size: 17px;
+	text-align: justify;
+	margin-bottom: 3%;
+	color: rgba(41, 41, 41, 0.692);
+}
+
+.heading {
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+
+.title {
+	width: 40%;
+	padding: 5% 0;
+}
+
+.title h1 {
+	font-size: 50px;
+}
+
+.image img {
+	border-radius: 20px;
+}
+
+i {
+	font-size: 40px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+i:hover {
+	background-color: rgba(0, 0, 0, 0.849);
+	color: rgba(240, 216, 0, 0.849);
+	border-radius: 10px;
+}
+
+.introtext {
+	text-align: center;
+}
+
+.introtext h2 {
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+.introtext p {
+	font-size: 20px;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.feature p {
+	color: rgba(41, 41, 41, 0.692);
+	width: 190%;
+}
+
+.feature p:first-child {
+	width: 150%;
+}
+
+.six {
+	margin-top: 5%;
+}
+
+.three {
+	padding-top: 5%;
+	display: flex;
+}
+
+.three .one {
+	display: flex;
+	margin-right: 15%;
+}
+
+.feature {
+	margin-left: 5%;
+}
+
+section {
+	margin-bottom: 10%;
+	margin-top: 5%;
+}
+
+footer {
+	background-color: black;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	width: auto;
+}
+
+footer .introtext {
+	color: white;
+}
+
+.fixcolor {
+	color: rgba(255, 255, 255, 0.692);
+}
+
+
+input {
+	height: 50px;
+	margin: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+input[type="text"] {
+	text-align: center;
+	font-size: 18px;
+}
+
+.introtext1 {
+	padding-top: 5%;
+	text-align: center;
+}
+
+.introtext1 h2 {
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+.introtext1 p {
+	font-size: 20px;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.box {
+	width: 400px;
+}
+
+.submit {
+	width: 80px;
+	background-color: rgb(240, 216, 0);
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.submit:hover {
+	background-color: white;
+	border-radius: 10px;
+}
+
+.search {
+	padding: 2%;
+	text-align: center;
+}
+
+.introtext1 h2 {
+	color: rgb(240, 216, 0);
+}
+
+.social {
+	text-align: center;
+	color: white;
+	margin-bottom: 5%;
+}
+
+pre {
+	color: white;
+	font-family: 'Alata', sans-serif;
+	color: rgba(240, 216, 0);
+}
+
+.part {
+	color: rgba(240, 216, 0);
+}
+
+.part ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.part ul li {
+	padding: 0;
+}
+
+.part ul li:hover {
+	color: white;
+}
+
+.information {
+	display: flex;
+	padding-top: 80px;
+	justify-content: space-between;
+
+}
+
+.links {
+	display: flex;
+	width: 80%;
+	justify-content: flex-end;
+}
+
+.link {
+	padding: 20px;
+}
+
+.link:last-child {
+	padding-right: 0;
+}
+
+h3 {
+	cursor: pointer;
+	width: 160%;
+	text-transform: uppercase;
+}
+
+h3:hover {
+	color: red;
+}
+
+.social i{
+	background-color: rgb(240, 216, 0);
+	color: black;
+	margin: 0px 5px 0;
+	font-size: 20px;
+}
+
+.social i:hover {
+	background-color: white;
+}
+
+.fix {
+	margin-left: 16px;
+}
